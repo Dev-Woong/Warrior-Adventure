@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc2578b35b8fca48b7bf7fbfeeff92f, type: 3}
+  m_Name: Main1
+  m_EditorClassIdentifier: 
+  questID: 1
+  title: "\uC2E0\uC785 \uBAA8\uD5D8\uAC00"
+  description: "\uD61C\uC9C4\uC5D0\uAC8C \uAC00\uC11C \uC870\uC791\uBC95\uC744 \uBC30\uC6B0\uC790!\n"
+  questDialogue:
+  - "\uCC98\uC74C \uBCF4\uB294 \uC5BC\uAD74\uC774\uB124 \uBAA8\uD5D8\uAC00...\n"
+  - "\uB3D9\uC0DD\uD55C\uD14C \uAC00\uBA74 \uB3D9\uC0DD\uC774 \uC870\uC791\uBC95\uC744
+    \uC54C\uB824\uC904\uAC70\uC57C..\n\uB3D9\uC0DD\uC774 \uC8FC\uB294 \uD018\uC2A4\uD2B8\uB3C4
+    \uC644\uB8CC\uD558\uACE0 \uB098\uD55C\uD14C \uB2E4\uC2DC \uB3CC\uC544\uC624\uB3C4\uB85D
+    \uD574\uC918..\n\uBB34\uC6B4\uC744 \uBE4C\uAC8C.."
+  questType: 2
+  targetID: Npc_2
+  targetName: "\uD5E4\uC9C4"
+  requiredAmount: 1
+  prerequisiteQuests: []
+  rewardGold: 10
+  rewardEXP: 50
+  questRooting: 0
+  isComplete: 1
+  notCompliteQuestDialogue: "\uC544\uC9C1 \uD61C\uC9C4\uC774\uB97C \uBABB\uCC3E\uC740\uAC70\uC57C
+    ...?\n\uD61C\uC9C4\uC774\uB294 \uBC14\uB85C \uC55E\uC5D0 \uC788\uB294\uB370.....?"
+  completeDialogue: "\uC218\uACE0\uD588\uC5B4 \uBAA8\uD5D8\uAC00..\uACE0\uC0DD\uD588\uB124...
+    \uC55E\uC73C\uB85C\uC758 \uC5EC\uC815\uC5D0 \uB298 \uD589\uC6B4\uC774 \uB530\uB974\uAE38
+    \uAE30\uB3C4\uD560\uAC8C...!"
